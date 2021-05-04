@@ -75,6 +75,7 @@ body {
     header {
         display: flex;
         position: relative;
+
     }
 
     .header__mobile-wrapper {
@@ -93,17 +94,18 @@ body {
 
     .main-navigation__list {
         flex-direction: row;
+        justify-content: center;
     }
-
-    .main-navigation__item:nth-child(1) {
-        margin-left: 49px;
-        margin-right: 76px;
+    .main-navigation__item:first-child{
+        margin-right: auto;
+        padding-left: 49px;
+    }
+    .main-navigation__item:last-child{
+        margin-left: auto;
+        padding-right: 27px;
     }
     .main-navigation__item:nth-child(2){
-        margin-right: 210px;
-    }
-    .main-navigation__item:nth-child(3){
-        margin-right: 49px;
+        margin-right: 25%;
     }
 
     .header__gallery {
