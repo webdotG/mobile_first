@@ -129,6 +129,9 @@ body {
         margin-left: auto;
         padding-right: 71px;
     }
+    .header__gallery{
+        height: 490px;
+    }
 }
 
 
