@@ -96,15 +96,18 @@ body {
         flex-direction: row;
         justify-content: center;
     }
-    .main-navigation__item:first-child{
+
+    .main-navigation__item:first-child {
         margin-right: auto;
         padding-left: 49px;
     }
-    .main-navigation__item:last-child{
+
+    .main-navigation__item:last-child {
         margin-left: auto;
         padding-right: 27px;
     }
-    .main-navigation__item:nth-child(2){
+
+    .main-navigation__item:nth-child(2) {
         margin-right: 25%;
     }
 
@@ -115,6 +118,16 @@ body {
 
 @media screen and (min-width: 1024px) /* Desktop */ {
     body {
+    }
+
+    .main-navigation__item:first-child {
+        margin-right: auto;
+        padding-left: 91px;
+    }
+
+    .main-navigation__item:last-child {
+        margin-left: auto;
+        padding-right: 71px;
     }
 }
 
