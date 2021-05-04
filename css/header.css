@@ -72,10 +72,13 @@ body {
 
     header {
         display: flex;
+        position: relative;
     }
 
     .header__mobile-wrapper {
         display: flex;
+        position: absolute;
+        top: 0;
     }
 
     .main-navigation__button {
@@ -88,9 +91,6 @@ body {
 
     .main-navigation__list{
         flex-direction: row;
-    }
-    .logo-mobile{
-        top: 0;
     }
 
     .header__gallery {
