@@ -1,80 +1,79 @@
-
 body {
-    min-width: 320px;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: "PT Sans", sans-serif;
-    color: #333333;
-    text-transform: uppercase;
+    background: white;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
+@media screen and (min-width: 320px) /* Mobile */ {
+    body {
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-navigation {
+        position: relative;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    /*.main-navigation--mobile-off {
+    display: none;
+    }*/
+    .main-navigation__list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-navigation__item {
+        display: flex;
+        justify-content: center;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .main-navigation__button--close {
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .header__mobile-wrapper {
+        width: 100%;
+        display: flex;
+    }
+
+    .logo-mobile {
+        position: absolute;
+        left: 41%;
+    }
+
+
+    .main-navigation__button {
+        width: 23px;
+        height: 23px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+
+    .header__gallery {
+        order: 2;
+        min-height: 389px;
+    }
 }
 
-.main-navigation {
-    position: relative;
-    font-size: 18px;
-    line-height: 40px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-/*.main-navigation--mobile-off {
-display: none;
-}*/
-.main-navigation__list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-navigation__item {
-    display: flex;
-    justify-content: center;
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
-
-.main-navigation__button--close {
-    position: absolute;
-    right: 20px;
-    top: 17px;
-    width: 22px;
-    height: 22px;
-}
-
-.header__mobile-wrapper {
-    width: 100%;
-    display: flex;
-}
-
-.logo-mobile {
-    position: absolute;
-    left: 45%;
-}
-
-
-.main-navigation__button {
-    width: 23px;
-    height: 23px;
-    margin-top: 18px;
-    margin-bottom: 18px;
-    margin-left: auto;
-    margin-right: 20px;
-}
-
-
-.header__gallery {
-    order: 2;
-    min-height: 389px;
-}
-
-
-@media (min-width: 768px) {
+@media screen  and (min-width: 768px) /* Tablet */ {
+    body {
+        
+    }
 
     header {
         display: flex;
@@ -102,5 +101,11 @@ display: none;
     .header__gallery {
         height: 517px;
     }
-
 }
+
+@media screen and (min-width: 1024px) /* Desktop */ {
+    body {
+    }
+}
+
+
