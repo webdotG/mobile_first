@@ -12,7 +12,8 @@
         <button class="main-navigation__button--close"></button>
         <ul class="main-navigation__list">
             <li class="main-navigation__item"><a class="main-navigation__link" href="index.html">главная</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link" href="photo%20and%20video.html">фото и видео</a></li>
+            <li class="main-navigation__item"><a class="main-navigation__link" href="photo%20and%20video.html">фото и
+                видео</a></li>
             <li class="main-navigation__item"><a class="main-navigation__link" href="">форма отзыва</a></li>
             <li class="main-navigation__item"><a class="main-navigation__link" href="">html academy</a></li>
         </ul>
@@ -22,41 +23,51 @@
     </div>
 </header>
 <main>
-<h1>оставьте свой отзыв</h1>
-<p>помогите нашти отелям стать лучше! оставьте отзыв о них, а также о посещённых вами достопримечательностях</p>
-<form class="review-form" action="" method="post" autocomplete="on" enctype="text/plain">
-    <h2>представьтесь</h2>
-    <label for="name">имя*</label>
-    <input id="name" type="text" placeholder="Петр" name="name" autofocus>
-    <label for="surname">фамилия*</label>
-    <input id="surname" type="text" placeholder="Иванов" name="surname">
-    <label for="patronymic">отчество</label>
-    <input id="patronymic" type="text" placeholder="Александрович" name="patronymic">
-    <h2>контактная информация</h2>
-    <label for="phone">контактный телефон*</label>
-    <input id="phone" type="tel" placeholder="Введите телефон" name="phone">
-    <label for="email">электронная почта*</label>
-    <input id="email" type="email" placeholder="Введите e-mail" name="email">
-    <h2>ваше общее впечатление</h2>
-    <input id="good-impression" type="radio" name="impression" checked>
-    <label for="good-impression">скорее положительное</label>
-    <input id="bad-impression" type="radio" name="impession">
-    <label for="bad-impression">скорее отрицательное</label>
-    <input id="dont-impression" type="radio" name="impression">
-    <label for="dont-impression">затрудняюсь ответить</label>
-    <h2>посещённые достопримечательности</h2>
-    <input id="devil-bridge" type="checkbox" name="devil-bridge" checked>
-    <label for="devil-bridge">мост дьявола</label>
-    <input id="slide-park" type="checkbox" name="slide-park" checked>
-    <label for="slide-park">слайд-парк</label>
-    <input id="mount-bell" type="checkbox" name="mount-bell">
-    <label for="mount-bell">гора колокол</label>
-    <input id="red-rocks" type="checkbox" name="red-rocks" checked>
-    <label for="red-rocks">красные скалы</label>
-    <h2>опишите свои эмоции</h2>
-    <input type="text" placeholder="Опишите все свои восторги" name="user-review-text">
-    <input type="submit" value="отправить отзыв" >
-</form>
+    <h1>оставьте свой отзыв</h1>
+    <p>помогите нашти отелям стать лучше! оставьте отзыв о них, а также о посещённых вами достопримечательностях</p>
+    <form class="review-form" action="" method="post" autocomplete="on" enctype="text/plain">
+        <fieldset>
+            <h2>представьтесь</h2>
+            <label for="name">имя*</label>
+            <input id="name" type="text" placeholder="Петр" name="name" autofocus>
+            <label for="surname">фамилия*</label>
+            <input id="surname" type="text" placeholder="Иванов" name="surname">
+            <label for="patronymic">отчество</label>
+            <input id="patronymic" type="text" placeholder="Александрович" name="patronymic">
+        </fieldset>
+        <fieldset>
+            <h2>контактная информация</h2>
+            <label for="phone">контактный телефон*</label>
+            <input id="phone" type="tel" placeholder="Введите телефон" name="phone">
+            <label for="email">электронная почта*</label>
+            <input id="email" type="email" placeholder="Введите e-mail" name="email">
+        </fieldset>
+        <fieldset>
+            <h2>ваше общее впечатление</h2>
+            <input id="good-impression" type="radio" name="impression" checked>
+            <label for="good-impression">скорее положительное</label>
+            <input id="bad-impression" type="radio" name="impession">
+            <label for="bad-impression">скорее отрицательное</label>
+            <input id="dont-impression" type="radio" name="impression">
+            <label for="dont-impression">затрудняюсь ответить</label>
+        </fieldset>
+        <fieldset>
+            <h2>посещённые достопримечательности</h2>
+            <input id="devil-bridge" type="checkbox" name="devil-bridge" checked>
+            <label for="devil-bridge">мост дьявола</label>
+            <input id="slide-park" type="checkbox" name="slide-park" checked>
+            <label for="slide-park">слайд-парк</label>
+            <input id="mount-bell" type="checkbox" name="mount-bell">
+            <label for="mount-bell">гора колокол</label>
+            <input id="red-rocks" type="checkbox" name="red-rocks" checked>
+            <label for="red-rocks">красные скалы</label>
+        </fieldset>
+        <fieldset>
+            <h2>опишите свои эмоции</h2>
+            <input type="text" placeholder="Опишите все свои восторги" name="user-review-text">
+            <input type="submit" value="отправить отзыв">
+        </fieldset>
+    </form>
 </main>
 <footer>
     <h3>#visitsedona</h3>
