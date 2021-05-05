@@ -32,6 +32,9 @@
 }
 @media (min-width: 768px) /* Tablet */ {
     .main-title{
-        min-width: 440px;
+        min-width: 500px;
+    }
+    .main-title p{
+        min-width: 490px;
     }
 }
