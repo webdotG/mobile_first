@@ -34,7 +34,10 @@
     .reason-first__about p{
        text-align: center;
     }
-
+.reason-first__about p{
+    width: 238px;
+    margin: 0 auto;
+}
     .reason-first__item{
         padding-left: 60px;
     }
@@ -48,6 +51,15 @@
     .reason-first__item h3{
         font-size: 18px;
         line-height: 24px;
+    }
+
+    .reason-second__about h3,
+    .reason-second__about p{
+    text-align: center;
+    }
+    .reason-second__about p:last-child{
+        width: 240px;
+        margin: 0 auto;
     }
 }
 
