@@ -188,3 +188,10 @@ main {
 
     }
 }
+
+@media (min-width: 1024px) /* Desktop */ {
+    main{
+        width: auto;
+        padding: 0 40px;
+    }
+}
