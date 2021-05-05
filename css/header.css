@@ -72,15 +72,16 @@
         width: auto;
         padding-left: 64px;
         padding-right: 64px;
+        position: relative;
     }
 
 
     .header-mobile__wrapper {
+        width: auto;
         display: flex;
         position: absolute;
-        top: 0;
-        left: 0;
-    }
+        left: 44%;
+   }
 
     .main-navigation__button {
         display: none;
