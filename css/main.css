@@ -1,4 +1,4 @@
-@media (min-width: 320px) /* Mobile */ {
+ /* Mobile */
     main {
         width: auto;
         padding: 0 16px;
@@ -111,7 +111,7 @@
         margin: 0 auto;
     }
 
-}
+
 
 @media (min-width: 768px) /* Tablet */ {
     .main-title {
