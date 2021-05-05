@@ -19,7 +19,8 @@
         font-weight: bold;
         text-transform: uppercase;
     }
-    .main-title p{
+
+    .main-title p {
         margin: 0 auto;
         text-align: center;
         width: 256px;
@@ -29,12 +30,33 @@
     }
 
 
+    .reason-first__about h3,
+    .reason-first__about p{
+       text-align: center;
+    }
+
+    .reason-first__item{
+        padding-left: 60px;
+    }
+    .reason-first__item p,
+    .reason-first__item h3{
+        text-transform: uppercase;
+    }
+    .reason-first__item p{
+        width: 240px;
+    }
+    .reason-first__item h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
+
 @media (min-width: 768px) /* Tablet */ {
-    .main-title{
+    .main-title {
         min-width: 500px;
     }
-    .main-title p{
+
+    .main-title p {
         min-width: 490px;
     }
 }
