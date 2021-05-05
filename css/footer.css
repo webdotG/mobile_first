@@ -34,3 +34,11 @@ footer h3{
     display: block;
     background-color: #333333;
 }
+
+@media (min-width: 768px) /* Tablet */{
+    footer{
+        width: auto ;
+        padding: 0 20px;
+        display: flex;
+    }
+}
