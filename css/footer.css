@@ -1,0 +1,36 @@
+footer{
+    width: auto;
+    padding: 0 16px;
+}
+
+footer h3{
+    width: 155px;
+    margin: 0 auto;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social__item{
+    width: 48px;
+    height: 48px ;
+    background-color: #333333;
+}
+.social__item:nth-child(2),
+.social__item:first-child{
+    margin-right: 6px;
+}
+.developer{
+    width: 155px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.developer a{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #333333;
+}
