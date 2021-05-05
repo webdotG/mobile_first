@@ -17,6 +17,7 @@
         font-size: 18px;
         line-height: 24px;
         font-weight: bold;
+        text-transform: uppercase;
     }
     .main-title p{
         margin: 0 auto;
@@ -24,11 +25,12 @@
         width: 256px;
         padding-top: 42px;
         padding-bottom: 48px;
+        text-transform: uppercase;
     }
 
 
 }
-@media screen  and (min-width: 768px) /* Tablet */ {
+@media (min-width: 768px) /* Tablet */ {
     .main-title{
         min-width: 440px;
     }
