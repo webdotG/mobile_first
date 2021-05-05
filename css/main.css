@@ -61,6 +61,36 @@
         width: 240px;
         margin: 0 auto;
     }
+    .reason-third h3,
+    .reason-third p{
+        text-align: center;
+        width: 240px;
+        margin: 0 auto;
+    }
+    .reason-fourth h3,
+    .reason-fourth p{
+        text-align: center;
+        width: 240px;
+        margin: 0 auto;
+    }
+    .reason-fifth h3,
+    .reason-fifth p{
+        text-align: center;
+        width: 240px;
+        margin: 0 auto;
+    }
+    .interest h2,
+    .interest p{
+        width: 240px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .interest button{
+        width: 280px;
+        margin: 0 auto;
+    }
+
 }
 
 @media (min-width: 768px) /* Tablet */ {
@@ -70,5 +100,11 @@
 
     .main-title p {
         min-width: 490px;
+    }
+    .reason-third h3,
+    .reason-third p{
+        text-align: center;
+        width: 240px;
+        margin: 0 auto;
     }
 }
