@@ -31,63 +31,83 @@
 
 
     .reason-first__about h3,
-    .reason-first__about p{
-       text-align: center;
+    .reason-first__about p {
+        text-align: center;
     }
-.reason-first__about p{
-    width: 238px;
-    margin: 0 auto;
-}
-    .reason-first__item{
+
+    .reason-first__about p {
+        width: 238px;
+        margin: 0 auto;
+    }
+
+    .reason-first__list{
+        width: 240px;
+        margin: 0 auto;
+    }
+    .reason-first__item {
         padding-left: 60px;
     }
+
     .reason-first__item p,
-    .reason-first__item h3{
+    .reason-first__item h3 {
         text-transform: uppercase;
     }
-    .reason-first__item p{
+
+    .reason-first__item p {
         width: 240px;
     }
-    .reason-first__item h3{
+
+    .reason-first__item h3 {
         font-size: 18px;
         line-height: 24px;
     }
 
     .reason-second__about h3,
-    .reason-second__about p{
-    text-align: center;
+    .reason-second__about p {
+        text-align: center;
     }
-    .reason-second__about p:last-child{
+
+    .reason-second__about p:last-child {
         width: 240px;
         margin: 0 auto;
     }
+
     .reason-third h3,
-    .reason-third p{
+    .reason-third p {
         text-align: center;
         width: 240px;
         margin: 0 auto;
     }
+
     .reason-fourth h3,
-    .reason-fourth p{
+    .reason-fourth p {
         text-align: center;
         width: 240px;
         margin: 0 auto;
     }
+
     .reason-fifth h3,
-    .reason-fifth p{
+    .reason-fifth p {
         text-align: center;
         width: 240px;
         margin: 0 auto;
     }
+
+    .interest {
+        width: 300px;
+        margin: 0 auto;
+    }
+
     .interest h2,
-    .interest p{
+    .interest p {
         width: 240px;
         text-align: center;
         margin: 0 auto;
     }
 
-    .interest button{
+    .interest button {
         width: 280px;
+        display: block;
         margin: 0 auto;
     }
 
@@ -101,8 +121,9 @@
     .main-title p {
         min-width: 490px;
     }
+
     .reason-third h3,
-    .reason-third p{
+    .reason-third p {
         text-align: center;
         width: 240px;
         margin: 0 auto;
