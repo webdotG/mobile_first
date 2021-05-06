@@ -1,16 +1,4 @@
-/* Mobile */
-main {
-    width: auto;
-    padding: 0 16px;
-}
-
-.main-title {
-    padding-top: 68px;
-    width: 300px;
-    margin: 0 auto;
-
-}
-
+1
 .main-title h1 {
     margin: 0;
     text-align: center;
@@ -192,6 +180,6 @@ main {
 @media (min-width: 1024px) /* Desktop */ {
     main{
         width: auto;
-        padding: 0 40px;
+        padding: 0 40px;1
     }
 }
