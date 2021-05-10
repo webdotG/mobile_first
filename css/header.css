@@ -1,68 +1,69 @@
 /* Mobile */
-    body {
-        margin: 0;
-        padding: 0;
-    }
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    header {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: auto;
-        padding: 0 16px;
-    }
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    padding: 0 16px;
+}
 
-    .navigation {
-        position: relative;
-        font-size: 18px;
-        line-height: 40px;
-        font-weight: bold;
-        color: #ffffff;
-    }
-
-    /*.main-navigation--mobile-off {
-    display: none;
-    }*/
-    .navigation__list {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navigation__item {
-        display: flex;
-        justify-content: center;
-        padding-top: 22px;
-        padding-bottom: 22px;
-    }
-
-    .navigation__button--close {
-        position: absolute;
-        right: 20px;
-        top: 17px;
-        width: 22px;
-        height: 22px;
-    }
-
-    .header-mobile__wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-    }
+.navigation__wrapper {
+    display: block;
+}
 
 
-    .navigation__button {
-        position: absolute;
-        width: 23px;
-        height: 23px;
-        right: 18px;
-    }
+.navigation {
+    position: relative;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
 
+.navigation__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-    .header__gallery {
-        min-height: 389px;
-    }
+.navigation__item {
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.navigation__button--close {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    width: 22px;
+    height: 22px;
+}
+
+.mobile-wrapper {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.navigation__button {
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    right: 18px;
+    top: 35%;
+}
+
+.header__gallery {
+    min-height: 389px;
+}
 
 
 @media (min-width: 768px) /* Tablet */ {
@@ -75,13 +76,14 @@
         position: relative;
     }
 
-
-    .header-mobile__wrapper {
-        width: auto;
-        display: flex;
+    .mobile-wrapper {
         position: absolute;
-        left: 44%;
-   }
+        left: 45%;
+    }
+
+    .navigation__wrapper {
+        display: block;
+    }
 
     .navigation__button {
         display: none;
@@ -126,7 +128,8 @@
         margin-left: auto;
         padding-right: 71px;
     }
-    .header__gallery{
+
+    .header__gallery {
         height: 490px;
     }
 }
