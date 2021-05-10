@@ -32,6 +32,8 @@ main {
     text-transform: uppercase;
 }
 .form{
+    width: 298px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
