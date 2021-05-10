@@ -2,6 +2,10 @@
 main {
     width: auto;
     padding: 0 16px;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
 }
 
 .review-title {
@@ -26,4 +30,19 @@ main {
     padding-top: 42px;
     padding-bottom: 48px;
     text-transform: uppercase;
+}
+.review-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-form h2{
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.form__user-name{
+    display: flex;
 }

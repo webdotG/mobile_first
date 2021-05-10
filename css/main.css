@@ -1,4 +1,4 @@
-1
+
 .main-title h1 {
     margin: 0;
     text-align: center;
@@ -128,11 +128,6 @@
         background-color: #81b3d2;
     }
 
-    .reason-first img {
-        width: 512px;
-        height: 257px;
-        background-color: #333333;
-    }
 
     .reason-first__list {
         width: 768px;
@@ -161,11 +156,6 @@
         background-color: #81b3d2;
     }
 
-    .reason-second img {
-        width: 512px;
-        height: 257px;
-        background-color: #333333;
-    }
     .reason-another{
         height: 257px;
         width: 768px;

@@ -35,47 +35,41 @@
         <p>помогите нашти отелям стать лучше! оставьте отзыв о них, а также о посещённых вами достопримечательностях</p>
     </div>
     <form class="review-form" action="" method="post" autocomplete="on" enctype="text/plain">
-        <fieldset>
-            <h2>представьтесь</h2>
+        <h2>представьтесь</h2>
+        <span class="form__user-name">
+            <div class="name-wrapper">
             <label for="name">имя*</label>
             <input id="name" type="text" placeholder="Петр" name="name" required autofocus>
+                </div>
             <label for="surname">фамилия*</label>
             <input id="surname" type="text" placeholder="Иванов" name="surname" required>
             <label for="patronymic">отчество</label>
             <input id="patronymic" type="text" placeholder="Александрович" name="patronymic">
-        </fieldset>
-        <fieldset>
-            <h2>контактная информация</h2>
-            <label for="phone">контактный телефон*</label>
-            <input id="phone" type="tel" placeholder="Введите телефон" name="phone" required>
-            <label for="email">электронная почта*</label>
-            <input id="email" type="email" placeholder="Введите e-mail" name="email" required>
-        </fieldset>
-        <fieldset>
-            <h2>ваше общее впечатление</h2>
-            <input id="good-impression" type="radio" name="impression" checked>
-            <label for="good-impression">скорее положительное</label>
-            <input id="bad-impression" type="radio" name="impession">
-            <label for="bad-impression">скорее отрицательное</label>
-            <input id="dont-impression" type="radio" name="impression">
-            <label for="dont-impression">затрудняюсь ответить</label>
-        </fieldset>
-        <fieldset>
-            <h2>посещённые достопримечательности</h2>
-            <input id="devil-bridge" type="checkbox" name="interest-place-visit" checked>
-            <label for="devil-bridge">мост дьявола</label>
-            <input id="slide-park" type="checkbox" name="interest-place-visit" checked>
-            <label for="slide-park">слайд-парк</label>
-            <input id="mount-bell" type="checkbox" name=interest-place-visit>
-            <label for="mount-bell">гора колокол</label>
-            <input id="red-rocks" type="checkbox" name="interest-place-visit" checked>
-            <label for="red-rocks">красные скалы</label>
-        </fieldset>
-        <fieldset>
-            <h2>опишите свои эмоции</h2>
-            <input type="text" placeholder="Опишите все свои восторги" name="user-review-text">
-            <input type="submit" value="отправить отзыв">
-        </fieldset>
+            </span>
+        <h2>контактная информация</h2>
+        <label for="phone">контактный телефон*</label>
+        <input id="phone" type="tel" placeholder="Введите телефон" name="phone" required>
+        <label for="email">электронная почта*</label>
+        <input id="email" type="email" placeholder="Введите e-mail" name="email" required>
+        <h2>ваше общее впечатление</h2>
+        <input id="good-impression" type="radio" name="impression" checked>
+        <label for="good-impression">скорее положительное</label>
+        <input id="bad-impression" type="radio" name="impession">
+        <label for="bad-impression">скорее отрицательное</label>
+        <input id="dont-impression" type="radio" name="impression">
+        <label for="dont-impression">затрудняюсь ответить</label>
+        <h2>посещённые достопримечательности</h2>
+        <input id="devil-bridge" type="checkbox" name="interest-place-visit" checked>
+        <label for="devil-bridge">мост дьявола</label>
+        <input id="slide-park" type="checkbox" name="interest-place-visit" checked>
+        <label for="slide-park">слайд-парк</label>
+        <input id="mount-bell" type="checkbox" name=interest-place-visit>
+        <label for="mount-bell">гора колокол</label>
+        <input id="red-rocks" type="checkbox" name="interest-place-visit" checked>
+        <label for="red-rocks">красные скалы</label>
+        <h2>опишите свои эмоции</h2>
+        <input type="text" placeholder="Опишите все свои восторги" name="user-review-text">
+        <input type="submit" value="отправить отзыв">
     </form>
 </main>
 <footer>
