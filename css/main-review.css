@@ -31,18 +31,7 @@ main {
     padding-bottom: 48px;
     text-transform: uppercase;
 }
-.review-form{
+.form{
     display: flex;
     flex-direction: column;
-}
-
-.review-form h2{
-    text-align: center;
-    font-size: 18px;
-    line-height: 26px;
-    text-transform: uppercase;
-}
-
-.form__user-name{
-    display: flex;
 }

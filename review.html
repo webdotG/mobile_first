@@ -11,19 +11,21 @@
 </head>
 <body>
 <header>
-    <nav class="main-navigation main-navigation--mobile-off main-navigation--mobile-on">
-        <button class="main-navigation__button--close"></button>
-        <ul class="main-navigation__list">
-            <li class="main-navigation__item"><a class="main-navigation__link" href="index.html">главная</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link" href="gallery.html">фото и видео</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link" href="review.html">форма отзыва</a>
-            </li>
-            <li class="main-navigation__item"><a class="main-navigation__link" href="">html academy</a></li>
-        </ul>
-    </nav>
-    <div class="header-mobile__wrapper">
+    <div class="navigation__wrapper">
+        <nav class="navigation navigation--mobile-off navigation--mobile-on">
+            <button class="navigation__button--close"></button>
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="index.html">главная</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="gallery.html">фото и видео</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="review.html">форма отзыва</a>
+                </li>
+                <li class="navigation__item"><a class="navigation__link" href="">html academy</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mobile-wrapper">
         <img class="logo-mobile" src="img/logo-sedona-mobile.png" alt="sdeona-logo" width="102" height="83">
-        <button class="main-navigation__button main-navigation__button--open"></button>
+        <button class="navigation__button navigation__button--open"></button>
     </div>
     <div class="header__gallery">
         <img class="sedona-photo" src="">
@@ -34,31 +36,34 @@
         <h1>оставьте свой отзыв</h1>
         <p>помогите нашти отелям стать лучше! оставьте отзыв о них, а также о посещённых вами достопримечательностях</p>
     </div>
-    <form class="review-form" action="" method="post" autocomplete="on" enctype="text/plain">
+    <form class="form" action="" method="post" autocomplete="on" enctype="text/plain">
         <h2>представьтесь</h2>
         <span class="form__user-name">
-            <div class="name-wrapper">
             <label for="name">имя*</label>
             <input id="name" type="text" placeholder="Петр" name="name" required autofocus>
-                </div>
             <label for="surname">фамилия*</label>
             <input id="surname" type="text" placeholder="Иванов" name="surname" required>
             <label for="patronymic">отчество</label>
             <input id="patronymic" type="text" placeholder="Александрович" name="patronymic">
             </span>
         <h2>контактная информация</h2>
-        <label for="phone">контактный телефон*</label>
-        <input id="phone" type="tel" placeholder="Введите телефон" name="phone" required>
-        <label for="email">электронная почта*</label>
-        <input id="email" type="email" placeholder="Введите e-mail" name="email" required>
+        <span class="form__user-contact">
+            <label for="phone">контактный телефон*</label>
+            <input id="phone" type="tel" placeholder="Введите телефон" name="phone" required>
+            <label for="email">электронная почта*</label>
+            <input id="email" type="email" placeholder="Введите e-mail" name="email" required>
+        </span>
         <h2>ваше общее впечатление</h2>
+        <span class="form__recomend">
         <input id="good-impression" type="radio" name="impression" checked>
         <label for="good-impression">скорее положительное</label>
         <input id="bad-impression" type="radio" name="impession">
         <label for="bad-impression">скорее отрицательное</label>
         <input id="dont-impression" type="radio" name="impression">
         <label for="dont-impression">затрудняюсь ответить</label>
+        </span>
         <h2>посещённые достопримечательности</h2>
+        <span class="form__location">
         <input id="devil-bridge" type="checkbox" name="interest-place-visit" checked>
         <label for="devil-bridge">мост дьявола</label>
         <input id="slide-park" type="checkbox" name="interest-place-visit" checked>
@@ -67,9 +72,12 @@
         <label for="mount-bell">гора колокол</label>
         <input id="red-rocks" type="checkbox" name="interest-place-visit" checked>
         <label for="red-rocks">красные скалы</label>
+        </span>
         <h2>опишите свои эмоции</h2>
+        <span class="form__emotion">
         <input type="text" placeholder="Опишите все свои восторги" name="user-review-text">
         <input type="submit" value="отправить отзыв">
+        </span>
     </form>
 </main>
 <footer>
