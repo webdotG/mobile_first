@@ -37,3 +37,17 @@ main {
     flex-direction: column;
     margin: 0 auto;
 }
+
+.form__user-name{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form__user-name label{
+    display: flex;
+}
+#name{
+    width: 230px;
+    margin-left: 60px;
+    margin-top: -26px;
+}
