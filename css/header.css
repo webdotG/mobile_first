@@ -40,6 +40,20 @@ header {
     position: absolute;
     right: 20px;
     align-self: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.navigation__button--open:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 21px;
+    height: 2px;
+    background-color: #81b3d2;
+    box-shadow: 0 8px 0 0 #81b3d2, 0 16px 0 0 #81b3d2;
 }
 
 .navigation {
@@ -63,8 +77,8 @@ header {
     padding-bottom: 22px;
 }
 
-.navigation__link{
-    font-family: "PT Sans" , sans-serif;
+.navigation__link {
+    font-family: "PT Sans", sans-serif;
     font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
@@ -100,6 +114,7 @@ header {
         padding-right: 64px;
         position: relative;
     }
+
     .navigation--mobile-off {
         display: block;
     }
@@ -158,12 +173,13 @@ header {
 
 @media (min-width: 1024px) /* Desktop */ {
 
-.header-logo{
-    width: 188px;
-    height: 96px;
-    background-image: url("../img/logo-sedona__desktop.png");
-    background-repeat: no-repeat;
-}
+    .header-logo {
+        width: 188px;
+        height: 96px;
+        background-image: url("../img/logo-sedona__desktop.png");
+        background-repeat: no-repeat;
+    }
+
     .navigation__item:first-child {
         margin-right: auto;
         padding-left: 91px;
