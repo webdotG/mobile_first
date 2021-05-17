@@ -12,9 +12,9 @@ header {
     padding: 0 16px;
 }
 
-/*.navigation--mobile-off {
+.navigation--mobile-off {
     display: none;
-}*/
+}
 
 .header-logo {
     width: 102px;
@@ -99,6 +99,9 @@ header {
         padding-left: 64px;
         padding-right: 64px;
         position: relative;
+    }
+    .navigation--mobile-off {
+        display: block;
     }
 
     .header__mobile {
