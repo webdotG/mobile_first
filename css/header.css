@@ -76,8 +76,11 @@ header {
     padding-top: 22px;
     padding-bottom: 22px;
     background-color: #81b3d2;
+    border-bottom: 2px #678fa8 solid;
 }
-
+.navigation__item:last-child{
+    border: none;
+}
 .navigation__link {
     font-family: "PT Sans", sans-serif;
     font-size: 14px;
@@ -155,6 +158,8 @@ header {
 
     .navigation__item {
         padding: 0;
+        border: none;
+        background-color: transparent;
     }
 
     .navigation__button {
