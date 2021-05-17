@@ -62,7 +62,12 @@ header {
 }
 
 .header__gallery {
-    min-height: 389px;
+    width: 320px;
+    height: 389px;
+    margin: 0 auto;
+    background-image: url("../img/header-back__mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -105,7 +110,7 @@ header {
 
     .navigation__item:last-child {
         margin-left: auto;
-        padding-right: 27px;
+        padding-right: 49px;
     }
 
     .navigation__item:nth-child(2) {
@@ -113,7 +118,10 @@ header {
     }
 
     .header__gallery {
-        height: 517px;
+        width: 100%;
+        height: 418px;
+        background-image: url("../img/header-back__tablet.jpg");
+        background-position: center;
     }
 }
 
@@ -126,11 +134,15 @@ header {
 
     .navigation__item:last-child {
         margin-left: auto;
-        padding-right: 71px;
+        padding-right: 91px;
     }
 
     .header__gallery {
-        height: 490px;
+        width: 100%;
+        height: 518px;
+        background-image: url("../img/header-back__desktop.jpg");
+        background-position: center;
+        background-size: cover;
     }
 }
 
