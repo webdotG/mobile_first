@@ -90,6 +90,12 @@ header {
         display: block;
     }
 
+    .navigation__list{
+        height: 56px;
+        display: flex;
+        align-items: center;
+    }
+
     .navigation__button {
         display: none;
     }
