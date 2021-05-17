@@ -92,11 +92,13 @@ header {
         padding-right: 64px;
         position: relative;
     }
-.header__mobile{
-    display: flex;
-    margin-top: -43px;
-    z-index: 0;
-}
+
+    .header__mobile {
+        display: flex;
+        margin-top: -56px;
+        z-index: 0;
+    }
+
 
     .navigation__list {
         height: 56px;
@@ -145,7 +147,12 @@ header {
 
 @media (min-width: 1024px) /* Desktop */ {
 
-
+.header-logo{
+    width: 188px;
+    height: 96px;
+    background-image: url("../img/logo-sedona__desktop.png");
+    background-repeat: no-repeat;
+}
     .navigation__item:first-child {
         margin-right: auto;
         padding-left: 91px;
