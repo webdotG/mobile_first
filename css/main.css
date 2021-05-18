@@ -1,4 +1,17 @@
-
+main{
+    position: relative;
+}
+/*.main-title:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 161px solid #ffffff;
+    border-top: 15px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 61px;
+}*/
 .main-title h1 {
     margin: 0;
     text-align: center;
