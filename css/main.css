@@ -1,17 +1,18 @@
 main{
     position: relative;
 }
-/*.main-title:before {
+.main-title:before {
     content: "";
     display: block;
     width: 0;
     height: 0;
-    border: 161px solid #ffffff;
-    border-top: 15px solid transparent;
+    border: 40px solid transparent;
+    border-right: 170px solid #ffffff;
+    border-bottom: 0px solid #ffffff;
     position: absolute;
-    top: -16px;
-    left: 61px;
-}*/
+    top: -40px;
+    right: 61px;
+}
 .main-title h1 {
     margin: 0;
     text-align: center;

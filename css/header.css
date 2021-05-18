@@ -5,13 +5,14 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    position: relative;
     width: auto;
     padding: 0 16px;
 }
-
+.navigation__wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 /*.navigation--mobile-off {
     display: none;
 }*/
@@ -138,11 +139,9 @@ header {
 @media (min-width: 768px) /* Tablet */ {
 
     header {
-        display: flex;
         width: auto;
         padding-left: 64px;
         padding-right: 64px;
-        position: relative;
     }
 
     .navigation--mobile-off {
