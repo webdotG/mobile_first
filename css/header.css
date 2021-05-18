@@ -131,8 +131,20 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     order: 3;
+    position: relative;
 }
 
+.header__gallery:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 161px solid #ffffff;
+    border-top: 15px solid transparent;
+    position: absolute;
+    bottom: -160px;
+    left: 46px;
+}
 
 @media (min-width: 768px) /* Tablet */ {
 
