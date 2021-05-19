@@ -162,8 +162,9 @@ header {
     }
 
     .navigation__wrapper {
-        width: 688px;
+        width: auto;
         height: 58px;
+        margin: 0 auto;
         align-items: center;
         flex-direction: row;
         position: relative;
@@ -175,17 +176,15 @@ header {
     }
 
     .header-logo {
-        left: 325px;
+        left: 300px;
     }
 
     .navigation {
         width: 100%;
-
     }
 
     .navigation__list {
         flex-direction: row;
-        justify-content: space-between;
     }
 
     .navigation__item {
@@ -194,6 +193,20 @@ header {
         background-color: transparent;
         box-shadow: none;
     }
+    .navigation__item:first-child{
+        margin-left: 46px;
+    }
+    .navigation__item:nth-child(2){
+        margin-left: 50px;
+    }
+    .navigation__item:nth-child(3){
+        margin-left: 180px;
+    }
+    .navigation__item:last-child{
+        margin-left: 34px;
+    }
+
+
 
 
     .header__gallery {
