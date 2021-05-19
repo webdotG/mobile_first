@@ -8,43 +8,48 @@ header {
     width: auto;
     padding: 0 16px;
 }
-.navigation__wrapper{
+
+.navigation__wrapper {
+    width: 320px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
+
 /*.navigation--mobile-off {
     display: none;
 }*/
+.navigation__mobile-container{
+    order: 2;
+    width: 320px;
+    height: 56px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
 
 .header-logo {
     width: 102px;
     height: 83px;
-    display: flex;
     background-image: url("../img/logo-sedona__mobile.png");
-    margin: 0 auto;
-
-}
-
-.header__mobile {
-    height: 56px;
-    width: 100%;
-    display: flex;
+    position: absolute;
+    left: 110px;
     z-index: 1;
-    position: relative;
-    order: 2;
 }
 
 .navigation__button {
     width: 21px;
     height: 23px;
-    position: absolute;
-    right: 20px;
+    margin-right: 20px;
+    display: flex;
     align-self: center;
     border: none;
     cursor: pointer;
+    margin-left: auto;
+    position: relative;
     background-color: transparent;
 }
+
 
 .navigation__button--open:before {
     content: "";
@@ -131,7 +136,7 @@ header {
     background-image: url("../img/header-back__mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    order: 3;
+    order: 10;
     position: relative;
 }
 
@@ -151,7 +156,7 @@ header {
     .header__mobile {
         display: flex;
         margin-top: -56px;
-        z-index: 0;
+        z-index: 1;
     }
 
 
@@ -165,6 +170,7 @@ header {
         padding: 0;
         border: none;
         background-color: transparent;
+        box-shadow: none;
     }
 
     .navigation__button {
