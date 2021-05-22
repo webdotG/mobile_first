@@ -55,12 +55,13 @@
 }
 
 .reason-first {
-    width: 100%;
+    width: 320px;
+    margin: 0 auto;
     position: relative;
 }
 
 .reason-first__decorate-element {
-    width: 288px;
+    width: 320px;
     height: 0;
     position: relative;
 }
@@ -74,7 +75,7 @@
     border-right: 135px solid #81b3d2;
     border-bottom: 0px solid #81b3d2;
     position: absolute;
-    top: -14px;
+    top: -13px;
     right: 0;
 }
 
@@ -87,12 +88,13 @@
     border-left: 135px solid #81b3d2;
     border-bottom: 0px solid #81b3d2;
     position: absolute;
-    top: -14px;
+    top: -13px;
     left: 0;
 }
 
 .reason-first__about {
-    width: 288px;
+    width: 320px;
+    margin: 0 auto;
     background-color: #81b3d2;
 }
 
