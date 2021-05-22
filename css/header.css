@@ -7,7 +7,7 @@
 }
 
 .navigation {
-    width: 100%;
+    width: 320px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -18,10 +18,10 @@
 }*/
 .navigation__controls {
     order: 2;
-    width: 100%;
+    width: 320px;
     height: 56px;
-    display: flex;
     margin: 0 auto;
+    display: flex;
     position: relative;
 }
 
@@ -30,7 +30,7 @@
     height: 83px;
     background-image: url("../img/logo-sedona__mobile.png");
     position: absolute;
-    left: 94px;
+    left: 110px;
     z-index: 1;
 }
 
@@ -60,6 +60,8 @@
 }
 
 .navigation__menu {
+    width: 320px;
+    margin: 0 auto;
     position: relative;
     font-size: 18px;
     line-height: 40px;
@@ -127,14 +129,11 @@
 }
 
 .header__gallery {
-    width: 100%;
+    display: block;
+    width: 320px;
     height: 389px;
     margin: 0 auto;
-    background-image: url("../img/header-back__mobile.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
     order: 10;
-    position: relative;
 }
 
 
