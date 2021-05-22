@@ -11,7 +11,7 @@
 }
 
 .main-title__decorate-element {
-    width: 268px;
+    width: 288px;
     height: 0;
     margin: 0 auto;
     position: relative;
@@ -63,15 +63,13 @@
 }
 
 .reason-first {
-    width: auto;
-    margin: 0 auto;
+    width: 100%;
     position: relative;
 }
 
 .reason-first__decorate-element {
-    width: 268px;
+    width: 288px;
     height: 0;
-    margin: 0 auto;
     position: relative;
 }
 
@@ -81,7 +79,7 @@
     width: 0;
     height: 0;
     border: 14px solid transparent;
-    border-right: 120px solid #81b3d2;
+    border-right: 135px solid #81b3d2;
     border-bottom: 0px solid #81b3d2;
     position: absolute;
     top: -14px;
@@ -94,7 +92,7 @@
     width: 0;
     height: 0;
     border: 14px solid transparent;
-    border-left: 120px solid #81b3d2;
+    border-left: 135px solid #81b3d2;
     border-bottom: 0px solid #81b3d2;
     position: absolute;
     top: -14px;
@@ -102,8 +100,7 @@
 }
 
 .reason-first__about {
-    width: 268px;
-    margin: 0 auto;
+    width: 288px;
     background-color: #81b3d2;
 
 }
@@ -125,10 +122,8 @@
 }
 
 .reason-first__img {
-    width: 320px;
+    display: block;
     height: 260px;
-    background-image: url("../img/reason-first__back-city.jpg");
-    background-repeat: no-repeat;
     margin: 0 auto;
 }
 
