@@ -183,6 +183,10 @@
     height: 260px;
     margin: 0 auto;
     background-image: url("../img/reason-seconde__back-bridge.jpg");
+    background-repeat: no-repeat;
+}
+.reason-another{
+    background-color: #eeeeee;
 }
 
 .reason-third h3,
