@@ -10,25 +10,27 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-<header>
-    <div class="navigation">
-        <div class="navigation__controls">
-            <a class="header-logo" href="index.html"></a>
-            <button class="navigation__button navigation__button--open"></button>
+<header class="header">
+    <div class="header__wrapper">
+        <div class="navigation">
+            <div class="navigation__controls">
+                <a class="header-logo" href="index.html"></a>
+                <button class="navigation__button navigation__button--open"></button>
+            </div>
+            <nav class="navigation__menu navigation--mobile-off">
+                <button class="navigation__button--close"></button>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link navigation__link--active" href="index.html">главная</a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="gallery.html">фото и видео</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="review.html">форма отзыва</a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="">html academy</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navigation__menu navigation--mobile-off">
-            <button class="navigation__button--close"></button>
-            <ul class="navigation__list">
-                <li class="navigation__item"><a class="navigation__link navigation__link--active" href="index.html">главная</a>
-                </li>
-                <li class="navigation__item"><a class="navigation__link" href="gallery.html">фото и видео</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="review.html">форма отзыва</a>
-                </li>
-                <li class="navigation__item"><a class="navigation__link" href="">html academy</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="header__gallery">
+        <div class="header__gallery">
+        </div>
     </div>
 </header>
 <main class="main">

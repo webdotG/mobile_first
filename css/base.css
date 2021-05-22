@@ -15,6 +15,16 @@
     font-style: normal;
     font-display: swap;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+}
+
 a {
     text-decoration: none;
 }
@@ -29,7 +39,7 @@ li {
     list-style-type: none;
 }
 
-.visually-hidden:not(:focus):not(:active){
+.visually-hidden:not(:focus):not(:active) {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -39,9 +49,4 @@ li {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-body{
-    font-family: "PT Sans" , sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    color: #333333;
-}
+

@@ -1,16 +1,13 @@
 /* Mobile */
-body {
-    margin: 0;
-    padding: 0;
-}
 
-header {
-    width: auto;
+.header__wrapper {
+    width: 288px;
     padding: 0 16px;
+    margin: 0 auto;
 }
 
 .navigation {
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -21,7 +18,7 @@ header {
 }*/
 .navigation__controls {
     order: 2;
-    width: 320px;
+    width: 100%;
     height: 56px;
     display: flex;
     margin: 0 auto;
@@ -33,7 +30,7 @@ header {
     height: 83px;
     background-image: url("../img/logo-sedona__mobile.png");
     position: absolute;
-    left: 110px;
+    left: 94px;
     z-index: 1;
 }
 

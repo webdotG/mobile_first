@@ -1,8 +1,7 @@
-.main {
-    padding: 0 16px;
-}
 
 .main__wrapper {
+    width: 288px;
+    padding: 0 16px;
     margin: 0 auto;
 }
 
@@ -11,7 +10,7 @@
     margin: 0 auto;
 }
 
-.main-title__decorate-element{
+.main-title__decorate-element {
     width: 268px;
     height: 0;
     margin: 0 auto;
@@ -31,7 +30,7 @@
     right: -26px;
 }
 
-.main-title__decorate-element:after{
+.main-title__decorate-element:after {
     content: "";
     display: block;
     width: 0;
@@ -63,19 +62,20 @@
     text-transform: uppercase;
 }
 
-.reason-first{
+.reason-first {
     width: auto;
     margin: 0 auto;
     position: relative;
 }
-.reason-first__decorate-element{
+
+.reason-first__decorate-element {
     width: 268px;
     height: 0;
     margin: 0 auto;
     position: relative;
 }
 
-.reason-first__decorate-element:before{
+.reason-first__decorate-element:before {
     content: "";
     display: block;
     width: 0;
@@ -87,7 +87,8 @@
     top: -14px;
     right: 0;
 }
-.reason-first__decorate-element:after{
+
+.reason-first__decorate-element:after {
     content: "";
     display: block;
     width: 0;
@@ -99,33 +100,38 @@
     top: -14px;
     left: 0;
 }
-.reason-first__about{
+
+.reason-first__about {
     width: 268px;
     margin: 0 auto;
     background-color: #81b3d2;
 
 }
+
 .reason-first__about h3,
 .reason-first__about p {
     text-align: center;
     margin: 0;
 }
-.reason-first__about h3{
+
+.reason-first__about h3 {
     padding-top: 15px;
 }
 
-.reason-first__about p:last-child{
+.reason-first__about p:last-child {
     width: 238px;
     padding-bottom: 44px;
     margin: 0 auto;
 }
-.reason-first__img{
+
+.reason-first__img {
     width: 320px;
     height: 260px;
     background-image: url("../img/reason-first__back-city.jpg");
     background-repeat: no-repeat;
     margin: 0 auto;
 }
+
 .reason-first__list {
     width: 268px;
     margin: 0 auto;
@@ -148,27 +154,32 @@
     font-size: 18px;
     line-height: 24px;
 }
-.reason-second{
+
+.reason-second {
     width: 100%;
     margin: 0 auto;
 }
-.reason-second__about{
+
+.reason-second__about {
     width: 320px;
     margin: 0 auto;
     background-color: #81b3d2;
 }
+
 .reason-second__about h3,
 .reason-second__about p {
     text-align: center;
     color: #ffffff;
 }
-.reason-second__about h3{
+
+.reason-second__about h3 {
     font-size: 18px;
     line-height: 26px;
     text-transform: uppercase;
     font-weight: bold;
 }
-.reason-second__about p{
+
+.reason-second__about p {
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
@@ -178,31 +189,37 @@
     width: 240px;
     margin: 0 auto;
 }
-.reason-second__img{
+
+.reason-second__img {
     width: 320px;
     height: 260px;
     margin: 0 auto;
     background-image: url("../img/reason-seconde__back-bridge.jpg");
     background-repeat: no-repeat;
 }
-.reason-another{
+
+.reason-another {
     background-color: #eeeeee;
 }
-.reason-another h3{
+
+.reason-another h3 {
     font-size: 18px;
     line-height: 26px;
     text-transform: uppercase;
 }
-.reason-another p{
+
+.reason-another p {
     text-transform: uppercase;
 }
+
 .reason-third h3,
 .reason-third p {
     text-align: center;
     width: 240px;
     margin: 0 auto;
 }
-.reason-third p:last-child{
+
+.reason-third p:last-child {
     border-bottom: 2px solid #d6d6d6;
 }
 
@@ -212,9 +229,11 @@
     width: 240px;
     margin: 0 auto;
 }
-.reason-fourth p:last-child{
+
+.reason-fourth p:last-child {
     border-bottom: 2px solid #d6d6d6;
 }
+
 .reason-fifth h3,
 .reason-fifth p {
     text-align: center;
@@ -227,12 +246,14 @@
     width: 300px;
     margin: 0 auto;
 }
-.interest h2{
+
+.interest h2 {
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
 }
-.interest p{
+
+.interest p {
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
@@ -257,6 +278,7 @@
     color: #ffffff;
     background-color: #81b3d2;
     border: none;
+    cursor: pointer;
 }
 
 
