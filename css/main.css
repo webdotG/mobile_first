@@ -227,18 +227,36 @@
     width: 300px;
     margin: 0 auto;
 }
+.interest h2{
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.interest p{
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
 
 .interest h2,
 .interest p {
-    width: 240px;
     text-align: center;
     margin: 0 auto;
 }
 
 .interest button {
     width: 280px;
+    padding-top: 17px;
+    padding-bottom: 22px;
     display: block;
     margin: 0 auto;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #81b3d2;
+    border: none;
 }
 
 
