@@ -9,10 +9,16 @@
 .main-title {
     width: 268px;
     margin: 0 auto;
+}
+
+.main-title__decorate-element{
+    width: 268px;
+    height: 0;
+    margin: 0 auto;
     position: relative;
 }
 
-.main-title:before {
+.main-title__decorate-element:before {
     content: "";
     display: block;
     width: 0;
@@ -25,7 +31,7 @@
     right: -26px;
 }
 
-.main-title:after{
+.main-title__decorate-element:after{
     content: "";
     display: block;
     width: 0;
