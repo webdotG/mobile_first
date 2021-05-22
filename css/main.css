@@ -1,6 +1,16 @@
-main{
+.main {
+    padding: 0 16px;
+}
+
+.main__wrapper {
+    width: 268px;
+    margin: 0 auto;
+}
+
+.main-title {
     position: relative;
 }
+
 .main-title:before {
     content: "";
     display: block;
@@ -11,10 +21,25 @@ main{
     border-bottom: 0px solid #ffffff;
     position: absolute;
     top: -40px;
-    right: 61px;
+    right: -26px;
 }
+
+.main-title:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-left: 170px solid #ffffff;
+    border-bottom: 0px solid #ffffff;
+    position: absolute;
+    top: -40px;
+    left: -26px;
+}
+
 .main-title h1 {
-    margin: 0;
+    width: 268px;
+    margin: 0 auto;
     text-align: center;
     font-size: 18px;
     line-height: 24px;
@@ -170,7 +195,7 @@ main{
         background-color: #81b3d2;
     }
 
-    .reason-another{
+    .reason-another {
         height: 257px;
         width: 768px;
         margin: 0 auto;
@@ -182,7 +207,7 @@ main{
 }
 
 @media (min-width: 1024px) /* Desktop */ {
-    main{
+    main {
         width: auto;
         padding: 0 40px;
     }
