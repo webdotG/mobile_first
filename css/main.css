@@ -188,12 +188,22 @@
 .reason-another{
     background-color: #eeeeee;
 }
-
+.reason-another h3{
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.reason-another p{
+    text-transform: uppercase;
+}
 .reason-third h3,
 .reason-third p {
     text-align: center;
     width: 240px;
     margin: 0 auto;
+}
+.reason-third p:last-child{
+    border-bottom: 2px solid #d6d6d6;
 }
 
 .reason-fourth h3,
@@ -202,7 +212,9 @@
     width: 240px;
     margin: 0 auto;
 }
-
+.reason-fourth p:last-child{
+    border-bottom: 2px solid #d6d6d6;
+}
 .reason-fifth h3,
 .reason-fifth p {
     text-align: center;
