@@ -270,7 +270,12 @@
     border: none;
     cursor: pointer;
 }
-
+.map{
+    display: block;
+    width: 320px;
+    height: 350px;
+    margin: 0 auto;
+}
 
 @media (min-width: 768px) /* Tablet */ {
     main {
