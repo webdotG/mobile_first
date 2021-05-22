@@ -56,10 +56,44 @@
     text-transform: uppercase;
 }
 
+.reason-first{
+    width: 268px;
+    margin: 0 auto;
+    background-color: #81b3d2;
+    position: relative;
+}
 
+.reason-first:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 24px solid transparent;
+    border-right: 146px solid #81b3d2;
+    border-bottom: 0px solid #81b3d2;
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+.reason-first:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 24px solid transparent;
+    border-left: 146px solid #81b3d2;
+    border-bottom: 0px solid #81b3d2;
+    position: absolute;
+    top: -24px;
+    left: 0;
+}
 .reason-first__about h3,
 .reason-first__about p {
     text-align: center;
+    margin: 0;
+}
+.reason-first__about h3{
+    padding-top: 15px;
 }
 
 .reason-first__about p {
