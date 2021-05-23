@@ -270,7 +270,8 @@
     border: none;
     cursor: pointer;
 }
-.map{
+
+.map {
     display: block;
     width: 320px;
     height: 350px;
@@ -279,16 +280,88 @@
 
 @media (min-width: 768px) /* Tablet */ {
     main {
-        width: auto;
+        width: 728px;
         padding: 0 20px;
     }
 
+    .main__decorate-element {
+        width: 768px;
+    }
+
+    .main__decorate-element:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: 56px solid transparent;
+        border-right: 288px solid #ffffff;
+        border-bottom: 0px solid #ffffff;
+        position: absolute;
+        top: -90px;
+        right: 40px;
+    }
+
+    .main__decorate-element:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: 56px solid transparent;
+        border-left: 288px solid #ffffff;
+        border-bottom: 0px solid #ffffff;
+        position: absolute;
+        top: -90px;
+        left: 0px;
+    }
+
+    .main__seconde-decorate {
+        width: 768px;
+        height: 0px;
+        position: relative;
+    }
+
+    .main__second-decorate:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: 56px solid transparent;
+        border-right: 288px solid #ffffff;
+        border-bottom: 0px solid #ffffff;
+        position: absolute;
+        bottom: -90px;
+        right: 140px;
+    }
+
+    .main__second-decorate:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: 56px solid transparent;
+        border-left: 288px solid #ffffff;
+        border-bottom: 0px solid #ffffff;
+        position: absolute;
+        bottom: -90px;
+        left: 140px;
+    }
+
     .main-title {
-        min-width: 500px;
+        width: 728px;
+
+    }
+
+    .main-title h1 {
+        width: 450px;
+        font-size: 21px;
+        line-height: 26px;
+        margin: 0 auto;
+        margin-top: 50px;
     }
 
     .main-title p {
-        min-width: 490px;
+        width: 500px;
+        margin: 0 auto;
     }
 
     .reason-first {
