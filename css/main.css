@@ -410,12 +410,16 @@
 
     .reason-second__about {
         order: 2;
-        text-align: center;
         width: 256px;
         height: 256px;
+        margin: 0;
+        text-align: center;
         background-color: #81b3d2;
     }
 
+    .reason-second__img{
+        margin: 0;
+    }
     .reason-another {
         height: 257px;
         width: 768px;
@@ -424,6 +428,13 @@
         align-items: center;
         justify-content: space-between;
 
+    }
+    .reason-another p{
+        width: 170px;
+        border: none;
+    }
+    .reason-another p:last-child{
+        border: none;
     }
 }
 
