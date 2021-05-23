@@ -140,9 +140,7 @@
 @media (min-width: 768px) /* Tablet */ {
 
     header {
-        width: auto;
-        padding-left: 40px;
-        padding-right: 40px;
+        width: 768px;
     }
 
     .navigation {
