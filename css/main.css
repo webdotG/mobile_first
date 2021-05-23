@@ -256,10 +256,10 @@
 }
 
 .interest button {
-    width: 280px;
+    display: block;
+    width: 282px;
     padding-top: 17px;
     padding-bottom: 22px;
-    display: block;
     margin: 0 auto;
     font-size: 21px;
     line-height: 26px;
@@ -286,6 +286,9 @@
 
     .main__decorate-element {
         width: 768px;
+        height: 0px;
+        margin: 0 auto;
+        position: relative;
     }
 
     .main__decorate-element:before {
@@ -317,6 +320,7 @@
     .main__second-decorate {
         width: 768px;
         height: 0px;
+        margin: 0 auto;
         position: relative;
     }
 
@@ -417,9 +421,10 @@
         background-color: #81b3d2;
     }
 
-    .reason-second__img{
+    .reason-second__img {
         margin: 0;
     }
+
     .reason-another {
         height: 257px;
         width: 768px;
@@ -429,14 +434,29 @@
         justify-content: space-between;
 
     }
-    .reason-another p{
+
+    .reason-another p {
         width: 170px;
         border: none;
     }
-    .reason-another p:last-child{
+
+    .reason-another p:last-child {
         border: none;
     }
+
+    .interest {
+        width: 768px;
+    }
+
+    .interest h2 {
+        font-size: 30px;
+    }
+
+    .interest button {
+        width: 458px;
+    }
 }
+
 
 @media (min-width: 1024px) /* Desktop */ {
     main {
