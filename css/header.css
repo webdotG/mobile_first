@@ -28,7 +28,6 @@
 .header-logo {
     width: 102px;
     height: 83px;
-    background-image: url("../img/logo-sedona__mobile.png");
     position: absolute;
     left: 110px;
     z-index: 1;
@@ -209,10 +208,8 @@
 
 
     .header__gallery {
-        width: 100%;
+        width: 768px;
         height: 418px;
-        background-image: url("../img/header-back__tablet.jpg");
-        background-position: center;
     }
 }
 
@@ -221,8 +218,6 @@
     .header-logo {
         width: 188px;
         height: 96px;
-        background-image: url("../img/logo-sedona__desktop.png");
-        background-repeat: no-repeat;
     }
 
     .navigation__item:first-child {
@@ -236,11 +231,8 @@
     }
 
     .header__gallery {
-        width: 100%;
+        width: 1024px;
         height: 518px;
-        background-image: url("../img/header-back__desktop.jpg");
-        background-position: center;
-        background-size: cover;
     }
 }
 

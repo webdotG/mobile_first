@@ -13,7 +13,12 @@
 <header class="header">
     <div class="navigation">
         <div class="navigation__controls">
-            <a class="header-logo" href="index.html"></a>
+            <a class="header-logo" href="index.html">
+                <picture>
+                    <img src="img/logo-sedona__mobile.png">
+                    <source media="(min-width:1024px)" srcset="img/logo-sedona__desktop.png">
+                </picture>
+            </a>
             <button class="navigation__button navigation__button--open"></button>
         </div>
         <nav class="navigation__menu navigation--mobile-off">
@@ -28,7 +33,11 @@
             </ul>
         </nav>
     </div>
-    <img class="header__gallery" src="img/header-back__mobile.jpg" alt="sedona welcome" width="320" height="389">
+    <picture>
+        <img class="header__gallery" src="img/header-back__mobile.jpg" alt="sedona welcome">
+        <source media="(min-width:768px)" srcset="img/header-back__tablet.jpg" >
+        <source media="(min-width:1024px)" srcset="img/header-back__desktop.jpg">
+    </picture>
 </header>
 <main class="main">
     <div class="main__decorate-element"></div>
