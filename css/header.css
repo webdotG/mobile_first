@@ -215,6 +215,11 @@
 
 @media (min-width: 1024px) /* Desktop */ {
 
+    header{
+        width: 1024px;
+        margin: 0 auto;
+    }
+
     .header-logo {
         width: 188px;
         height: 96px;
