@@ -447,20 +447,51 @@
     .interest {
         width: 768px;
     }
+    .interest {
+        margin: 0 auto;
+    }
 
     .interest h2 {
         font-size: 30px;
+        margin-top: 60px;
+    }
+
+    .interest p {
+        margin-top: 40px;
     }
 
     .interest button {
         width: 458px;
+        margin-bottom: 66px;
+        margin-top: 54px;
     }
 }
+
+
 
 
 @media (min-width: 1024px) /* Desktop */ {
     main {
         width: auto;
         padding: 0 40px;
+    }
+
+    .interest {
+        margin: 0 auto;
+    }
+
+    .interest h2 {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+
+    .interest p {
+        margin-top: 40px;
+    }
+
+    .interest button {
+        width: 458px;
+        margin-bottom: 66px;
+        margin-top: 54px;
     }
 }
