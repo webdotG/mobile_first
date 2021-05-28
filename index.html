@@ -34,8 +34,8 @@
         </nav>
     </div>
     <picture>
-        <source media="(min-width:768px)" srcset="img/header-back__tablet.jpg">
         <source media="(min-width:1024px)" srcset="img/header-back__desktop.jpg">
+        <source media="(min-width:768px)" srcset="img/header-back__tablet.jpg">
         <img class="header__gallery" src="img/header-back__mobile.jpg" alt="sedona welcome">
     </picture>
 </header>
@@ -53,8 +53,11 @@
             <p>№1</p>
             <p>Седона не атракцион для туристов, там ьечёт своя жизнь</p>
         </article>
-        <img class="reason-first__img" src="img/reason-first__back-city.jpg" alt="city sedona" width="320"
-             height="260">
+        <picture>
+            <source media="(min-width:1024px)" srcset="img/photo-city--desktop@1x.jpg">
+            <source media="(min-width:768px)" srcset="img/photo-citi--tablet@1x.jpg">
+            <img class="reason-first__img" src="img/photo-city--mobile@1x.jpg" alt="city sedona">
+        </picture>
     </div>
     <ul class="reason-first__list">
         <li class="reason-first__item">
@@ -113,9 +116,12 @@
 <footer>
     <h3 class="footer-title">#visitsedona</h3>
     <ul class="social">
-        <li class="social__item twitter"><a class="social__link"><img сlass="social__img" src="img/icon-twitter.png"></a></li>
-        <li class="social__item facebook"><a class="social__link"><img class="social__img" src="img/icon-facebook.svg.png"></a></li>
-        <li class="social__item youtube"><a class="social__link"><img class="social__img" src="img/icon-youtube.svg.png"></a></li>
+        <li class="social__item twitter"><a class="social__link"><img сlass="social__img"
+                                                                      src="img/icon-twitter.png"></a></li>
+        <li class="social__item facebook"><a class="social__link"><img class="social__img"
+                                                                       src="img/icon-facebook.svg.png"></a></li>
+        <li class="social__item youtube"><a class="social__link"><img class="social__img"
+                                                                      src="img/icon-youtube.svg.png"></a></li>
     </ul>
     <div class="developer">
         <h5>разработано</h5>
