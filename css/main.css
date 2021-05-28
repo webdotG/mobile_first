@@ -506,7 +506,8 @@
         width: auto;
         padding: 0 40px;
     }
-    .reason-first__img{
+
+    .reason-first__img {
         width: 800px;
         height: 256px;
 
@@ -528,6 +529,10 @@
     .reason-second__img {
         width: 800px;
         height: 256px;
+    }
+    .reason-another{
+        width: 1024px;
+        justify-content: space-around;
     }
 
     .interest {
