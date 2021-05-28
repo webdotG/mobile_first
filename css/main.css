@@ -418,14 +418,17 @@
         margin: 0;
         color: #eeeeee;
     }
-    .reason-first__about h3{
+
+    .reason-first__about h3 {
         width: 128px;
         line-height: 24px;
         margin: 0 auto;
     }
-.reason-first__about p:last-child{
-    width: 166px;
-}
+
+    .reason-first__about p:last-child {
+        width: 166px;
+    }
+
     .reason-first__img {
         width: 512px;
         height: 256px;
@@ -521,8 +524,8 @@
 
 @media (min-width: 1024px) /* Desktop */ {
     main {
-        width: auto;
-        padding: 0 40px;
+        width: 1200px;
+        margin: 0 auto;
     }
 
     .reason-first {
@@ -541,7 +544,7 @@
     }
 
     .reason-first__img {
-        width: 800px;
+        width: 600px;
         height: 256px;
 
     }
